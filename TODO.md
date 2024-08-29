@@ -1,0 +1,9 @@
+- [ ] Protect the routes that should only be accessed by authenticated users.
+- [ ] When a user is logged in, navigating to the auth page should redirect to the home page.
+- [ ] The project should be structured in a way that the navigation links are wrapped inside a Router component, so that it can be possible to use the Link component from react-router-dom.
+- [ ] Fix the loading spinner on the Explore page.
+- [ ] Use atlas for the database.
+- [ ] Remove the .env file from the repository cache.
+- [ ] Update the BASE_URL in the backend_service.js file to use the .env file.
+- [ ] Use useNavigate after logging in to redirect to the home page.
+- [ ] Update the logic to redirect to the recommendations or home page after logging in to use a value stored in the database and not one in localstorage.
